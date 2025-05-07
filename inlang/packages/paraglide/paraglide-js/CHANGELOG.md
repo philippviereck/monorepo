@@ -1,5 +1,16 @@
 # @inlang/paraglide-js
 
+## 2.0.13
+
+### Patch Changes
+
+- 635861b: `extractLocaleFromUrl()` now uses a cache for the last value.
+
+  Useful on the client-side where the same URL is being extracted many times for each message on a given page.
+
+- Updated dependencies [22089a2]
+  - @inlang/sdk@2.4.9
+
 ## 2.0.12
 
 ### Patch Changes
